@@ -8,7 +8,7 @@ URL: https://github.com/150balbes/icewm-settings-altlinux
 Summary: A settings altlinux for IceWM
 BuildArch: noarch
 
-#Requires: icewm-theme-AltClearlooks
+Requires: icewm-theme-AltClearlooks
 
 Conflicts: design-icewm
 
