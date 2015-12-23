@@ -563,10 +563,10 @@ ClockClassHint="cal.XClock"
 # LogoutCancelCommand=""
 
 #  Command to shutdown the system
-ShutdownCommand="/bin/sh -c "{ test -e /run/systemd/system && systemctl poweroff; } || poweroff""
+# ShutdownCommand="/bin/sh -c "{ test -e /run/systemd/system && systemctl poweroff; } || poweroff""
 
 #  Command to reboot the system
-RebootCommand="/bin/sh -c "{ test -e /run/systemd/system && systemctl reboot; } || reboot""
+# RebootCommand="/bin/sh -c "{ test -e /run/systemd/system && systemctl reboot; } || reboot""
 
 #  Command to run on CPU status
 CPUStatusCommand="xterm -name top -title 'Process Status' -e 'if [ -x /usr/bin/htop ]; then htop; else top; fi'"
