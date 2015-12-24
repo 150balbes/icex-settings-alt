@@ -1,6 +1,6 @@
 Name: icex-settings-alt
 Version: 0.0.1
-Release: alt2
+Release: alt3
 
 License: GPL
 Group: Graphical desktop/Icewm
@@ -27,6 +27,9 @@ tar xf %SOURCE0 -C %buildroot%_sysconfdir/
 %_sysconfdir/icewm
 
 %changelog
+* Mon Dec 24 2015 Oleg Ivanov <Leo-sp150@yandex.ru> 0.0.1-alt3
+- add show eth1 eth2
+
 * Mon Dec 22 2015 Oleg Ivanov <Leo-sp150@yandex.ru> 0.0.1-alt2
 - edit reboot and shutdown command
 

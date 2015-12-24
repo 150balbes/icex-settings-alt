@@ -584,7 +584,7 @@ NetStatusClassHint="iftop.XTerm"
 # AddressBarCommand=""
 
 #  Network device to show status for
-NetworkStatusDevice="eth0 wlan0 ppp0"
+NetworkStatusDevice="eth0 eth1 eth2 wlan0 ppp0"
 
 #  Clock Time format (strftime format string)
 # TimeFormat="%X"
