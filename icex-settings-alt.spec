@@ -1,6 +1,6 @@
 Name: icex-settings-alt
 Version: 0.0.1
-Release: alt3
+Release: alt4
 
 License: GPL
 Group: Graphical desktop/Icewm
@@ -8,7 +8,7 @@ URL: https://github.com/150balbes/icewm-settings-altlinux
 Summary: A settings altlinux for IceWM
 BuildArch: noarch
 
-Requires: icewm-theme-AltClearlooks
+###Requires: icewm-theme-AltClearlooks
 
 Conflicts: design-icewm
 
@@ -27,6 +27,9 @@ tar xf %SOURCE0 -C %buildroot%_sysconfdir/
 %_sysconfdir/icewm
 
 %changelog
+* Mon Jan 03 2016 Oleg Ivanov <Leo-sp150@yandex.ru> 0.0.1-alt4
+- add theme AltClearlooks
+
 * Mon Dec 24 2015 Oleg Ivanov <Leo-sp150@yandex.ru> 0.0.1-alt3
 - add show eth1 eth2
 
