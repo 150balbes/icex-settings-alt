@@ -1370,3 +1370,6 @@ DesktopBackgroundColor="rgb:4f/4f/a7"
 
 #  Image to announce for semi-transparent windows
 # DesktopTransparencyImage=""
+
+#  Show Background
+ShowBackground=0 # 0/1
